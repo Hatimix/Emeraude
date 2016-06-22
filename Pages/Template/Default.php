@@ -32,10 +32,10 @@
         </div>
         <div id="navigation">
             <ul>
-                <li><a href="<?='index.php?page=accueil'; ?>">Home</a></li>
+                <li><a href="<?='index.php?page=accueil'; ?>">Accueil</a></li>
                 <li><a href="<?='index.php?page=service'; ?>">Services</a></li>
-                <li><a href="<?='index.php?page=about'; ?>">About us</a></li>
-                <li><a href="<?='#contact'; ?>">Contact us</a></li>
+                <li><a href="<?='index.php?page=about'; ?>">A propos</a></li>
+                <li><a href="<?='#contact'; ?>">Contact</a></li>
             </ul>
         </div>
     </div>

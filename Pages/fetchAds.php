@@ -17,7 +17,7 @@
                 	<i class="fa fa-comments-o"></i>&nbsp; 12
                 </div>
                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                	Nombre des vues : 90
+                	<i class="fa fa-eye"></i>&nbsp;Nombre des vues : 90
                 </div>
             </div>
             </div>

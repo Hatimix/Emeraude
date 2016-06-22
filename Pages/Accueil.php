@@ -13,50 +13,91 @@
     </div>
 </header><!-- END HEADER BY LAGZAR Hatim -->
 <!-- START ABOUT SERVICES -->
-<section id="services">
+<section id="service">
+<div id="showAds_page">
     <div class="container">
-        <h2 class="heading">WE ARE THE BEST</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatibus voluptate nesciunt excepturi, neque vitae fuga impedit natus officiis reprehenderit minus eaque aliquid autem eveniet possimus atque accusantium mollitia eius a, sunt expedita. Dignissimos ex, ipsa officia tempore ratione minus!
-        </p>
-        <br><br>
-        <div class="row">
-            <div class="col-md-3 col-md-6 col-md-12" id="col_item">
-                <article class="extrait">
-                    <i class="fa fa-support"></i>
-                    <h4 class="heading4">Lorem ipsum.</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti libero natus nobis porro, temporibus? Autem doloribus labore modi natus odit pariatur perferendis placeat quis? Animi deleniti dicta est eveniet id ipsum, iste labore nam non optio, possimus, saepe tempora?
-                    </p>
-                </article>
+        <div class="page-header">
+            <h1 id="header_title">Les derniers articles !</h1>
+            <!-- START ARTICLE -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 post">
+                <h3 id="titlePost"><a href="#">Je suis le titre de cet article !</a></h3>
+                <p id="contentPost">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquam aliquid architecto blanditiis culpa dicta doloremque dolorum earum et hic incidunt iusto laborum minus nam natus necessitatibus nobis nostrum nulla obcaecati omnis perspiciatis possimus, provident quae quibusdam quidem quos recusandae rem repudiandae sed tempora temporibus ut voluptatibus. Aperiam architecto distinctio minus modi numquam possimus quae. Assumenda nobis, voluptatem! Facilis nulla odit porro repellendus saepe! Aperiam cupiditate debitis deleniti distinctio dolorum ...</p>
+                <div class="footerPost">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-user"></i>&nbsp; <strong>Hatim LAGZAR</strong>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-clock-o"></i>&nbsp;<?= date('Y-m-d H:i:s'); ?>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-comments-o"></i>&nbsp; 12
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-eye"></i>&nbsp;Nombre des vues : 90
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-md-6 col-md-12 col_item">
-                <article class="extrait">
-                    <i class="fa fa-comment-o"></i>
-                    <h4 class="heading4">Lorem ipsum.</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti libero natus nobis porro, temporibus? Autem doloribus labore modi natus odit pariatur perferendis placeat quis? Animi deleniti dicta est eveniet id ipsum, iste labore nam non optio, possimus, saepe tempora?
-                    </p>
-                </article>
+
+            <!-- END ARTICLE -->
+            <!-- START ARTICLE -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 post">
+                <h3 id="titlePost"><a href="#">Je suis le titre de cet article !</a></h3>
+                <p id="contentPost">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquam aliquid architecto blanditiis culpa dicta doloremque dolorum earum et hic incidunt iusto laborum minus nam natus necessitatibus nobis nostrum nulla obcaecati omnis perspiciatis possimus, provident quae quibusdam quidem quos recusandae rem repudiandae sed tempora temporibus ut voluptatibus. Aperiam architecto distinctio minus modi numquam possimus quae. Assumenda nobis, voluptatem! Facilis nulla odit porro repellendus saepe! Aperiam cupiditate debitis deleniti distinctio dolorum ...</p>
+                <div class="footerPost">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-user"></i>&nbsp; <strong>Hatim LAGZAR</strong>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-clock-o"></i>&nbsp;<?= date('Y-m-d H:i:s'); ?>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-comments-o"></i>&nbsp; 12
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-eye"></i>&nbsp;Nombre des vues : 90
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-md-6 col-md-12 col_item">
-                <article class="extrait">
-                    <i class="fa fa-tags"></i>
-                    <h4 class="heading4">Lorem ipsum.</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti libero natus nobis porro, temporibus? Autem doloribus labore modi natus odit pariatur perferendis placeat quis? Animi deleniti dicta est eveniet id ipsum, iste labore nam non optio, possimus, saepe tempora?
-                    </p>
-                </article>
+            <!-- END ARTICLE -->
+            <!-- START ARTICLE -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3 id="titlePost"><a href="#">Je suis le titre de cet article !</a></h3>
+                <p id="contentPost">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquam aliquid architecto blanditiis culpa dicta doloremque dolorum earum et hic incidunt iusto laborum minus nam natus necessitatibus nobis nostrum nulla obcaecati omnis perspiciatis possimus, provident quae quibusdam quidem quos recusandae rem repudiandae sed tempora temporibus ut voluptatibus. Aperiam architecto distinctio minus modi numquam possimus quae. Assumenda nobis, voluptatem! Facilis nulla odit porro repellendus saepe! Aperiam cupiditate debitis deleniti distinctio dolorum ...</p>
+                <div class="footerPost">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-user"></i>&nbsp; <strong>Hatim LAGZAR</strong>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-clock-o"></i>&nbsp;<?= date('Y-m-d H:i:s'); ?>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-comments-o"></i>&nbsp; 12
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <i class="fa fa-eye"></i>&nbsp;Nombre des vues : 90
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-md-6 col-md-12 col_item">
-                <article class="extrait">
-                    <i class="fa fa-phone" id="phone"></i>
-                    <h4 class="heading4">Lorem ipsum.</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti libero natus nobis porro, temporibus? Autem doloribus labore modi natus odit pariatur perferendis placeat quis? Animi deleniti dicta est eveniet id ipsum, iste labore nam non optio, possimus, saepe tempora?
-                    </p>
-                </article>
-            </div>
-        </div>
-    </div>
+            <!-- END ARTICLE -->
+            <nav class="text-center">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 </section><!-- END SECTION SERVICES -->

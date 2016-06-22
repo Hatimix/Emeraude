@@ -1,6 +1,6 @@
 <div id="about_page">
     <div class="container">
-        <h2>About us <small>Emeraude</small></h2>
+        <h2>A propos <small>Emeraude</small></h2>
         <p>
             Notre entreprise est une entreprise junior crée en 2016 suivant le programme « COMPANY PROGRAMM » de l’association « INJAZ AL MAGHREB », une équipe de jeunes entrepreneurs accompagnée de plusieurs entrepreneurs bénévoles  ont travaillé ensemble afin de répondre à vos besoins et de faciliter l’utilisation du site.
         </p>

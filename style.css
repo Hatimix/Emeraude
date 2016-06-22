@@ -352,3 +352,6 @@ main#addArticle > div.container > h2{
 {
     padding-bottom: 60px;
 }
+.post{
+    border-bottom: 1px solid #dddddd;
+}
