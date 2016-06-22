@@ -32,11 +32,10 @@
         </div>
         <div id="navigation">
             <ul>
-                <li><a href="<?='index.php?page=accueil'; ?>">Home</a></li>
+                <li><a href="<?='index.php?page=accueil'; ?>">Accueil</a></li>
                 <li><a href="<?='index.php?page=service'; ?>">Services</a></li>
-                <li><a href="<?='index.php?page=blog'; ?>">Blog</a></li>
-                <li><a href="<?='index.php?page=about'; ?>">About us</a></li>
-                <li><a href="<?='index.php?page=contact'; ?>">Contact us</a></li>
+                <li><a href="<?='index.php?page=about'; ?>">A propos</a></li>
+                <li><a href="<?='#contact'; ?>">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -45,7 +44,7 @@
 <section id="contact">
     <div class="container">
         <div class="row row_contact">
-            <center><h2 class="heading">Contact us</h2></center>
+            <center><h2 class="heading" id="contact">Contact us</h2></center>
             <div id="contact_form">
                 <div class="col-md-4">
                     <input type="text" class="form-control" placeholder="Put your Full name here ...">
@@ -76,5 +75,6 @@
 <script src="js/jquery-2.2.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
 </body>
 </html>
