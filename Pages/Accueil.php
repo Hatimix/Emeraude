@@ -4,8 +4,10 @@
             <h2>Habits moins cher . . . a votre style</h2>
             <p>Le premier site au Maroc facilitant le contact entre les meilleurs tailleurs marocains et leurs clients. Conféctionnez des vêtements de votre style au prix qui vous convient.</p>
             <p id="getstarted">
-                <a href="../Emeraude/index.php?page=addArticle" type="button" class="btn btn-primary btn-lg">I am looking for a tailor</a>
-                <button type="button" class="btn btn-default btn-lg">I'm looking for a client</button>
+                <a href="../Emeraude/index.php?page=fetchTailors" class="btn btn-primary btn-lg">I am looking for a tailor</a>
+                <a href="../Emeraude/index.php?page=fetchAds" class="btn btn-default btn-lg">I'm looking for a client</a>
+                <br>
+                <a href="../Emeraude/index.php?page=addArticle" style="margin-top: 10px; background-color: #333;color: #ffffff;" class="btn btn-default btn-lg">Ajouter une annonce</a>
             </p>
         </div>
     </div>

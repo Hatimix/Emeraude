@@ -323,3 +323,32 @@ main#addArticle > div.container > h2{
     padding-bottom: 10px;
     margin-top: 20px;
 }
+#aboutlist{
+    padding: 20px;
+}
+#aboutlist li{
+    list-style-type: circle;
+    line-height: 1.399;
+}
+#header_title{
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+#titlePost a{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+#contentPost
+{
+    text-align: justify;
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+.footerPost
+{
+    padding-bottom: 60px;
+}
