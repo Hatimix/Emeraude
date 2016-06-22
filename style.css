@@ -1,0 +1,325 @@
+/* -------------IMPORTING FONTS-------------- */
+
+/* latin-ext */
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(fonts/RlBXAIuiO5GvH9-0-JbBlw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(fonts/4hYyXH_8WmbBLamf6WjLwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: 15px arial, sans-serif;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* General layout */
+nav#firstNav ul{
+    padding: 10px 0;
+}
+i.fa.fa-envelope,
+i.fa.fa-phone{
+    font-size: 18px;
+    color: #333;
+}
+i.fa.fa-phone a,
+i.fa.fa-envelope a{
+    color: #888;
+    font-size: 14px;
+}
+nav#firstNav{
+    border-bottom: 1px solid #dddddd;
+}
+div.clearfix{
+    clear: both;
+    display: inline-block;
+}
+div.site-logo{
+    float: left;
+    display: inline-block;
+    margin-top: 12px;
+}
+div#navigation{
+    display: inline-block;
+    padding: 50px 0 0 300px;
+}
+div#navigation ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+div#navigation ul li a{
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: #888;
+    text-decoration: none;
+    font-weight: bold;
+}
+div#navigation ul li a:hover{
+    color: #3a393a;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+nav#secondNav{
+    height: 120px;
+    border-bottom: 1px solid #efefef;
+}
+#login{
+    float: right;
+}
+#login li{
+    display: inline-block;
+    padding-right: 20px;
+}
+#login li a{
+    text-decoration: none;
+    color: #888;
+}
+#login li a:hover{
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #333;
+}
+.trait{
+    border-right: 1px solid #ddd;
+}
+.traits{
+    padding-left: 20px;
+}
+/* HEADER STYLE */
+header{
+    background: url("img/headerem.png") no-repeat;
+    background-size:cover;
+}
+header{
+    padding:0;
+    margin:0;
+    width:100%;
+    text-align: center;
+    align-content: center;
+    height: 630px;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight:bold;
+    color: #ffffff;
+}
+div#container {
+    margin-top: 200px;
+}
+div#container h2{
+    line-height: 2em;
+}
+div#container p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+}
+p#getstarted{
+    margin-top: 40px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #25ab6a;
+    border:none;
+}
+.btn-default{
+    border: none;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #1E965C;
+    border-color: #1E965C;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.btn-default:hover{
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+section#services{
+    width: 100%;
+    height: 600px;
+    background-color: #fbfbfb;
+}
+.heading{
+    color: #3a393a;
+    text-align: center;
+    line-height: 2.3em;
+
+}
+.heading:after{
+    border-bottom: 3px solid #0f0f0f;
+    width: 30%;
+
+}
+section#services > .container > p{
+    line-height: 1.5em;
+    color: rgba(39, 39, 39, 1);
+    font-size: 14px;
+}
+article.extrait {
+    background-color: #fff;
+    padding: 22px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-bottom: 3px solid #24AB6A;
+    position: inherit;
+}
+article.extrait > p{
+    margin-top: 17px;
+    line-height: 1.3em;
+    font-size: 14px;
+    text-align: center;
+    color: #888;
+}
+.fa.fa-support,
+.fa-comment-o,
+#phone,
+.fa-tags{
+    text-align: center;
+    color: #3a393a;
+    font-size: 70px;
+    position: initial;
+    width: 100%;
+}
+h4.heading4{
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-family: 'Dosis',sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3A393A;
+}
+section#contact{
+    width: 100%;
+    height: 410px;
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #cccccc;
+}
+textarea#comment{
+    margin-top: 10px;
+}
+div#contact_form {
+    overflow: hidden;
+    margin-left: 294px;
+}
+footer{
+    width: 100%;
+    padding: 18px 0;
+    background: #2b303b;
+    color: #ffffff;
+}
+footer p{
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+}
+#sign{
+    float: right;
+}
+#sign a{
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #1E965C;
+    text-decoration: none;
+}
+div#send_btn {
+    display: block;
+    margin-top: 173px;
+    text-align: center;
+    width: 69%;
+}
+/* -- START About page -- */
+div#about_page{
+    padding: 50px 0;
+    text-align: justify;
+}
+div#about_page > .container > p{
+    line-height: 1.55;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #303030;
+    font-size: 17px;
+}
+div#about_page > .container > h2{
+    color: #303030;
+    text-align: left;
+    padding-bottom: 20px;
+}
+div#about_page > .container > h3 {
+    font-size: 24px;
+    padding: 15px 0;
+}
+small{
+    text-transform: none;
+}
+/* -- PAGE Add Article -- */
+main#addArticle > div.container > h2{
+    color: #303030;
+    padding: 10px 0;
+}
+.subtitle{
+    color: #303030;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
