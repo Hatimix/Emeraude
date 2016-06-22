@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Emeraude : Le premier site au Maroc facilitant le contact entre les meilleurs tailleurs marocains et leurs clients. Conféctionnez des vêtements de votre style au prix qui vous convient.</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -15,12 +15,12 @@
 <nav class="navbar-default" id="firstNav">
     <div class="container">
         <ul>
-            <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:Example@gmail.com">&nbsp;Example@gmail.com</a></i>
+            <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:Example@gmail.com">&nbsp;Emeraude.injaz@gmail.com</a></i>
             &nbsp;&nbsp;&nbsp;
             <i class="fa fa-phone"><a href="#">&nbsp;+212 522 56 87 32</a></i>
             <div id="login">
-                <li class="trait"><a href="./Admin/index.php?p=login">Login</a></li>
-                <li class="traits"><a href="#">Sign Up</a></li>
+                <li class="trait"><a href="./Admin/index.php?p=login">Connexion</a></li>
+                <li class="traits"><a href="#">Inscription</a></li>
             </div>
         </ul>
     </div>
@@ -44,22 +44,22 @@
 <section id="contact">
     <div class="container">
         <div class="row row_contact">
-            <center><h2 class="heading" id="contact">Contact us</h2></center>
+            <center><h2 class="heading" id="contact">Contact</h2></center>
             <div id="contact_form">
                 <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Put your Full name here ...">
+                    <input type="text" class="form-control" placeholder="Entre ton nom complet ...">
                 </div>
                 <div class="col-md-4">
-                    <input type="email" class="form-control" placeholder="Put your E-mail name here ...">
+                    <input type="email" class="form-control" placeholder="Entre ton E-mail ...">
                 </div>
                 <div class="col-xs-12 col-md-8">
                     <div class="form-group">
-                        <textarea class="form-control" rows="5" id="comment" placeholder="Your Message ..."></textarea>
+                        <textarea class="form-control" rows="5" id="comment" placeholder="Entre ton message ..."></textarea>
                     </div>
                 </div>
                 <div id="send_btn">
-                    <button type="button" class="btn btn-primary btn-lg">Send</button>
-                    <button type="button" class="btn btn-default btn-lg">Clean</button>
+                    <button type="button" class="btn btn-primary btn-lg">Envoyer</button>
+                    <button type="button" class="btn btn-default btn-lg">Tout vider</button>
                 </div>
             </div>
         </div><!--end row contact -->
@@ -67,8 +67,8 @@
 </section><!-- end contact by Hatim -->
 <footer>
     <div class="container">
-        <p>All rights reserved &copy; 2016</p>
-        <p id="sign">Designed BY : <a href="https://facebook.com/HLGeek">LAGZAR Hatim</a></p>
+        <p>Tout les droits sont réservés &copy; 2016</p>
+        <p id="sign">Créer Par : <a href="https://facebook.com/HLGeek">LAGZAR Hatim</a></p>
     </div><!-- end container footer -->
 </footer><!-- end footer by hatim -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

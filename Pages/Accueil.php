@@ -4,8 +4,8 @@
             <h2>Habits moins cher . . . a votre style</h2>
             <p>Le premier site au Maroc facilitant le contact entre les meilleurs tailleurs marocains et leurs clients. Conféctionnez des vêtements de votre style au prix qui vous convient.</p>
             <p id="getstarted">
-                <a href="../Emeraude/index.php?page=fetchTailors" class="btn btn-primary btn-lg">I am looking for a tailor</a>
-                <a href="../Emeraude/index.php?page=fetchAds" class="btn btn-default btn-lg">I'm looking for a client</a>
+                <a href="../Emeraude/index.php?page=fetchTailors" class="btn btn-primary btn-lg">Je cherche un tailleur</a>
+                <a href="../Emeraude/index.php?page=fetchAds" class="btn btn-default btn-lg">Je cherche un client</a>
                 <br>
                 <a href="../Emeraude/index.php?page=addArticle" style="margin-top: 10px; background-color: #333;color: #ffffff;" class="btn btn-default btn-lg">Ajouter une annonce</a>
             </p>
@@ -84,7 +84,7 @@
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
+                            <span class="sr-only">Précédent</span>
                         </a>
                     </li>
                     <li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -95,7 +95,7 @@
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
+                            <span class="sr-only">Suivant</span>
                         </a>
                     </li>
                 </ul>
